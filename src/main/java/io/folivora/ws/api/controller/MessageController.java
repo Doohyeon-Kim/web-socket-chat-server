@@ -12,9 +12,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class MessageController {
-    @MessageMapping("/send")
-    @SendTo("/topic/public")
+    @MessageMapping("/message")
+    @SendTo("/topic/message")
     public PushMessage sendMessage(@Payload PushMessage message) {
+
         return message;
     }
 }
