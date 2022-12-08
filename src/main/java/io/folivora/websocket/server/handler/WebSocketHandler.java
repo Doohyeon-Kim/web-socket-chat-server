@@ -1,4 +1,4 @@
-package io.folivora.ws.api.handler;
+package io.folivora.websocket.server.handler;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
